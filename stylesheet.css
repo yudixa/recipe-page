@@ -1,0 +1,136 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(30, 18%, 87%);
+}
+
+p, h3, li {
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 8% auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px
+}
+
+img {
+    width: 94%;
+    margin: 3%;
+    border-radius: 20px;
+    filter:saturate(0.8);
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    margin: 0 3% 3% 3%;
+    font-weight: 400;
+    font-size: 5em
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    margin: 0 3% 3% 3%;
+    font-weight: 400;
+    font-size: 3em;
+    color: hsl(332, 51%, 32%);
+}
+
+.contex {
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.85em;
+    margin: 0 3% 3% 3%;
+}
+
+.prep {
+    background-color: hsl(30, 54%, 90%);
+    margin: 0 3% 3% 3%;
+    border-radius: 20px;
+}
+
+.prep h3 {
+    font-size: 2em;
+    color: hsl(332, 51%, 32%);
+    padding: 2% 2% 0 2%
+}
+
+ ul, ol {
+    padding: 0 3% 3% 5%;
+}
+
+ ul li { 
+    font-size: 1.6em;
+    line-height: 2;
+}  
+
+ol li { 
+    font-size: 1.6em;
+    line-height: 2;
+    counter-increment: my-counter;
+} 
+
+.ingre {
+    padding-bottom: 2%;
+    
+}
+
+.ingre2 {
+    border-bottom: 4px solid #eee;
+    margin: 0 3% 3% 2%;
+}
+
+table {
+    margin: 0 3% 3% 3%;
+}
+
+.nut td {
+    font-size: 1.6em;
+    line-height: 2;
+    font-family: "Outfit", sans-serif;
+    border-bottom: 1px solid #eee;
+    padding-left: 3%;
+}
+
+ td {
+    font-size: 1.6em;
+    line-height: 2;
+    font-family: "Outfit", sans-serif;
+    padding-left: 1%;
+}
+
+.nut .value {
+    font-weight: bold;
+    color:hsl(332, 51%, 32%);
+    width: 100%;
+    padding-left: 45%
+}
+
+.numtd {
+    font-weight: 900;
+    color:hsl(332, 51%, 32%);
+    position: relative;
+}
+
+.num {
+    position: absolute;
+    top:0;
+}
+
+.texttd {
+    padding-left: 5%;
+}
+
+.instru {
+    border-bottom: 4px solid #eee;
+    margin: 0 3% 2% 2%;
+    padding-bottom: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3.5em;
+    }
+}
